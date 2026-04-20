@@ -1,41 +1,13 @@
 <?php
 
-// Mendeklarasikan variabel $nama dengan tipe data String (teks)
-$nama = "Abdul";
-
-// Mendeklarasikan variabel $umur dengan tipe data Integer (bilangan bulat)
-$umur = 20;
-
-// Mendeklarasikan variabel $tinggi dengan tipe data Float/Double (bilangan desimal)
-$tinggi = 175.5;
-
-// Mendeklarasikan variabel $kelas dengan tipe data String (teks)
-$kelas = "TIB Semester 4";
-
-// Menampilkan kalimat ke layar dengan menggabungkan teks dan memanggil variabel-variabel di atas
-echo "Nama saya $nama, umur saya $umur, tinggi saya $tinggi, kelas saya $kelas";
-
-
-echo "<br><br>=======================================================";
-
-$nilai = 12;
-$nilai2 = 12;
-$nilai3 = 2;
-
-$hasil = $nilai * $nilai2 - $nilai3;
-
-echo "<br>Hasil dari $nilai x $nilai2 - $nilai3 adalah $hasil";
-
-if ($hasil >= 100) {
-    echo "<br>Nilai anda lebih dari 100";
-} else if ($hasil < 100) {
-    echo "<br>Nilai anda kurang dari 100";
-} else {
-    echo "Nilai Anda Kosong";
-}
-
-echo "<br><br>=======================================================";
-
-
-
+echo '<br><br><a href="materi1.php"><button>Ke Materi 1 : If dan Else</button></a>';
+echo '<br><br><a href="materi2.php"><button>Ke Materi 2 : Looping</button></a>';
+echo '<br><br><a href="materi3.php"><button>Ke Materi 3</button></a>';
+echo '<br><br><a href="materi4.php"><button>Ke Materi 4</button></a>';
+echo '<br><br><a href="materi5.php"><button>Ke Materi 5</button></a>';
+echo '<br><br><a href="materi6.php"><button>Ke Materi 6</button></a>';
+echo '<br><br><a href="materi7.php"><button>Ke Materi 7</button></a>';
+echo '<br><br><a href="materi8.php"><button>Ke Materi 8</button></a>';
+echo '<br><br><a href="materi9.php"><button>Ke Materi 9</button></a>';
+echo '<br><br><a href="materi10.php"><button>Ke Materi 10</button></a>';
 ?>
